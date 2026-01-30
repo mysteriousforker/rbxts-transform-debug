@@ -5,7 +5,8 @@
   "main": "out/index.js",
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -39,3 +40,4 @@
     "prettier": "^3.3.3"
   }
 }
+
